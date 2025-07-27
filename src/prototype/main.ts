@@ -7,7 +7,7 @@ const chief = new UserProfile("Гупало Іван", "finance", {
 });
 
 const deputy = chief.clone() as UserProfile;
-deputy.username = "Коваль Максим";
+deputy.username = "Коваль Максим"; // instead of Гупало Іван
 deputy.permissions.canEditUsers = false;
 
 console.log("Chief:", chief);
